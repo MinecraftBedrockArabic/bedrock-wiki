@@ -38,6 +38,17 @@ By making [JSON UI](/json-ui/json-ui-intro) edits you can change the background 
 
 ![](/assets/images/visuals/structure-presentation/structure-block-1.png)
 
+Or you can use **Structure Presentation Pack** by @minato4743 to simplify the process. It include some default colors and gradient as will as toggle to hide the preview arrows.
+
+<Button link="/assets/packs/visuals/structure-presentation/structure_presentation_pack.mcpack" download>
+    Download Pack
+</Button>
+
+![](/assets/images/visuals/structure-presentation/structure_presentation_pack.png)
+
+![](/assets/images/visuals/structure-presentation/pack_gradient_result.png)
+
+
 ### Rendered 3D Object
 
 Structures can be exported as a 3d model. If 3D export button is not working for you, you can try applying a 3d-export-fix pack.
