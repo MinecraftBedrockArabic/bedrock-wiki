@@ -203,14 +203,14 @@ Under `texture_data` will our list of item shortname definitions. An example def
 <CodeHeader>RP/textures/item_texture.json/texture_data</CodeHeader>
 
 ```json
-"wiki.ectoplasm": {
+"wiki_ectoplasm": {
 	"textures": "textures/items/ectoplasm"
 }
 ```
 
-Here `wiki.ectoplasm` is our shortname and under `textures` we have the path to our item. Notice that this is relative to the resource pack, and does not include the file extension. Your shortname should be short and unique. We recommend setting it as the namespace and id for the item we are assigning it to.
+Here `wiki_ectoplasm` is our shortname and under `textures` we have the path to our item. Notice that this is relative to the resource pack, and does not include the file extension. Your shortname should be short and unique. We recommend setting it as the namespace and id for the item we are assigning it to.
 
-Now whenever we want to refer our image, we will use the shortname `wiki.ectoplasm`.
+Now whenever we want to refer our image, we will use the shortname `wiki_ectoplasm`.
 
 ### Icon
 
@@ -221,7 +221,7 @@ To finally apply our texture to our item, we add the `minecraft:icon` component 
 ```json
 "components": {
 	"minecraft:max_stack_size": 16,
-	"minecraft:icon": "wiki.ectoplasm"
+	"minecraft:icon": "wiki_ectoplasm"
 }
 ```
 
@@ -277,7 +277,7 @@ Your folder structure should look like this:
         },
         "components": {
             "minecraft:max_stack_size": 16,
-            "minecraft:icon": "wiki.ectoplasm"
+            "minecraft:icon": "wiki_ectoplasm"
         }
     }
 }
@@ -294,7 +294,7 @@ Your folder structure should look like this:
     "resource_pack_name": "Ghostly Guide",
     "texture_name": "atlas.items",
     "texture_data": {
-        "wiki.ectoplasm": {
+        "wiki_ectoplasm": {
             "textures": "textures/items/ectoplasm"
         }
     }
